@@ -93,6 +93,7 @@ func Provider() *schema.Provider {
 			"junos-ex-mstp_ProtocolsMstpBridge__Priority": junosProtocolsMstpBridge__Priority(),
 			"junos-ex-mstp_ProtocolsMstpInterfaceName": junosProtocolsMstpInterfaceName(),
 			"junos-ex-mstp_ProtocolsMstpInterfaceMode": junosProtocolsMstpInterfaceMode(),
+			"junos-ex-mstp_ProtocolsMstpInterfaceEdge": junosProtocolsMstpInterfaceEdge(),
 			"junos-ex-mstp_ProtocolsMstpMstiName": junosProtocolsMstpMstiName(),
 			"junos-ex-mstp_ProtocolsMstpMstiVlan": junosProtocolsMstpMstiVlan(),
 			"junos-ex-mstp_commit": junosCommit(),
